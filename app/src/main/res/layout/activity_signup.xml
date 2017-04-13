@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ashuguy.librarymanagementsystem.Signup">
+
+    <EditText
+        android:id="@+id/userID_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:hint="Enter user ID"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:layout_below="@+id/userID_signup"
+        android:layout_alignLeft="@+id/userID_signup"
+        android:layout_alignStart="@+id/userID_signup" />
+
+    <Button
+        android:id="@+id/final_signup_Btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="8"
+
+        android:text="Sign Up"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:prompt="@string/spinner_title"
+        android:layout_below="@+id/password_signup"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/final_signup_Btn"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_toLeftOf="@+id/password_signup"
+        android:layout_toStartOf="@+id/password_signup"
+        android:text="TYPE: "
+        android:textSize="18sp" />
+
+</android.widget.RelativeLayout>
