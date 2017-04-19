@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    tools:context="com.example.siddharth.finallibrary.Searchbook">
+
+    <Button
+        android:id="@+id/average_book_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Average of all Book IDs"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="161dp" />
+
+    <Button
+        android:id="@+id/search_by_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search Book By Name"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_above="@+id/search_by_publisher"
+        android:layout_alignLeft="@+id/search_by_publisher"
+        android:layout_alignStart="@+id/search_by_publisher"
+        android:layout_marginBottom="55dp" />
+
+    <Button
+        android:id="@+id/search_by_publisher"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search By Publisher"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_above="@+id/average_book_id"
+        android:layout_alignLeft="@+id/average_book_id"
+        android:layout_alignStart="@+id/average_book_id"
+        android:layout_marginBottom="47dp" />
+
+
+</android.widget.RelativeLayout>

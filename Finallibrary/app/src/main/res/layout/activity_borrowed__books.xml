@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    tools:context="com.example.siddharth.finallibrary.Admin">
+
+    anybook,book_x,author_x,name_x,member_x
+
+    <Button
+        android:id="@+id/anybook"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="People who have borrowed"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/member_x"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/book_x"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="People who have borrowed book X"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_above="@+id/author_x"
+        android:layout_alignLeft="@+id/author_x"
+        android:layout_alignStart="@+id/author_x"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/author_x"
+        android:textColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="People who have borrowed books by author X"
+        android:background="#ea4c88"
+        android:layout_above="@+id/name_x"
+        android:layout_alignLeft="@+id/name_x"
+        android:layout_alignStart="@+id/name_x"
+        android:layout_marginBottom="37dp" />
+
+    <Button
+        android:id="@+id/name_x"
+        android:textColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Borrowed book with name X"
+        android:background="#ea4c88"
+        android:layout_alignBottom="@+id/anybook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp" />
+
+    <Button
+        android:id="@+id/member_x"
+        android:textColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Book IDs borrowed from Member X"
+        android:background="#ea4c88"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/name_x"
+        android:layout_alignStart="@+id/name_x" />
+
+</android.widget.RelativeLayout>

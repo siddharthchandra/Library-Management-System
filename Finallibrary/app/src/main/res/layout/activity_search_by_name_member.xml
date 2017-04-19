@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    tools:context="com.example.siddharth.finallibrary.Search_by_name_member">
+    <EditText
+        android:id="@+id/search_by_name_member_edit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:layout_marginTop="164dp"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/search_by_name_member_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="#ea4c88"
+        android:text="Search"
+        android:layout_above="@+id/click_to_borrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+    <Button
+        android:id="@+id/click_to_borrow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click here to borrow"
+        android:layout_marginBottom="69dp"
+        android:textColor="@color/white"
+        android:background="#ea4c88"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</android.widget.RelativeLayout>

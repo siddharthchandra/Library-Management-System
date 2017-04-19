@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddharth.finallibrary">
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Member"
+            android:label="Member"/>
+        <activity android:name=".Admin"
+            android:label="Admin"/>
+        <activity android:name=".Signup"
+            android:label="SignUp"/>
+        <activity android:name=".Book_issued"
+            android:label="Book Issued"/>
+        <activity android:name=".Search_by_name_member"
+            android:label="Search Name by Member"/>
+        <activity android:name=".Searchbook"
+            android:label="Search Book"/>
+        <activity android:name=".Add_book"
+            android:label="Add Book"/>
+        <activity android:name=".MemberList"
+            android:label="Member List"/>
+        <activity android:name=".View_BookList"
+            android:label="Book List"/>
+        <activity android:name=".Search_by_name"
+            android:label="Search By name"/>
+        <activity android:name=".Borrowed_Books"
+            android:label="Borrowed Books"/>
+        <activity android:name=".anybook" />
+        <activity android:name=".member_x" />
+        <activity android:name=".book_x" />
+        <activity android:name=".author_x" />
+        <activity android:name=".book_x_name" />
+        <activity android:name=".name_x_count" />
+        <activity android:name=".author_x_name" />
+        <activity android:name=".member_x_name" />
+        <activity android:name=".Publisher_x" />
+        <activity android:name=".Publisherx_x_list"></activity>
+    </application>
+
+</manifest>

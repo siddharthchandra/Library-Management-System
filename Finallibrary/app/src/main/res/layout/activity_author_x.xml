@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#87CEEB"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddharth.finallibrary.author_x">
+
+    <ListView
+        android:id="@+id/listview_authorx"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:dividerHeight="2dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</android.widget.RelativeLayout>

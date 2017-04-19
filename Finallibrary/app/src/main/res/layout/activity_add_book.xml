@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    tools:context="com.example.siddharth.finallibrary.Add_book">
+
+    <EditText
+        android:id="@+id/booktitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:width="300dp"
+        android:textColor="@color/white"
+        android:hint="Title"
+        android:textColorHint="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/author"
+        android:layout_alignStart="@+id/author" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/author"
+        android:width="300dp"
+        android:layout_below="@+id/booktitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:hint="Author"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/publisher"
+        android:width="300dp"
+        android:layout_below="@+id/author"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:hint="Publisher"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/edition"
+        android:width="300dp"
+        android:layout_below="@+id/publisher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:hint="Edition"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/quantity"
+
+        android:width="300dp"
+        android:layout_below="@+id/edition"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:hint="Quantity"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/fine_add"
+        android:width="300dp"
+        android:layout_below="@+id/quantity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:hint="Fine"
+        android:textColorHint="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBtn"
+        android:width="200dp"
+        android:text="ADD"
+        android:textColor="@color/white"
+        android:background="#ea4c88"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+
+</android.widget.RelativeLayout>

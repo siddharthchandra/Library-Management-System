@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    tools:context="com.example.siddharth.finallibrary.Admin">
+
+
+    <TextView
+        android:id="@+id/textView_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:width="200dp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/admin_search"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search Book"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView_admin"
+        android:layout_alignLeft="@+id/admin_memberList"
+        android:layout_alignStart="@+id/admin_memberList"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:id="@+id/admin_borrow"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Borrowed Books"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/admin_search"
+        android:layout_alignLeft="@+id/admin_search"
+        android:layout_alignStart="@+id/admin_search" />
+
+    <Button
+        android:id="@+id/admin_addBook"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add new book"
+        android:background="#ea4c88"
+        android:layout_below="@+id/admin_memberList"
+        android:layout_alignLeft="@+id/admin_memberList"
+        android:layout_alignStart="@+id/admin_memberList"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/admin_memberList"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Member List"
+        android:background="#ea4c88"
+        android:layout_below="@+id/admin_borrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/admin_bookList"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Book List"
+        android:background="#ea4c88"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/admin_addBook"
+        android:layout_alignStart="@+id/admin_addBook" />
+
+</android.widget.RelativeLayout>
